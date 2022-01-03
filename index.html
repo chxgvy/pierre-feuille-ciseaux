@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pierre feuille ciseaux</title> <!-- titre du projet-->
+    <link rel="stylesheet" href="index.css"> <!-- référence du fichier CSS-->
+</head>
+<body>
+        <div class="container">  
+            <h1 class="titre">
+            PIERRE FEUILLE CISEAUX <!-- titre de la page -->
+            </h1>
+
+        <div class="container_header">
+            <p> Joueur : <span class="Jscore">0</span></p> <!-- span = appliquer un effet de style CCS aux éléments qu’elle contient -->
+            <div class="container_reset">
+                <button class="bouton" id="reset">
+                    reset
+                </button>
+            </div>
+            <p> Ordinateur : <span class="Oscore">0</span></p>
+        </div>
+
+
+        <div class="container_images">  <!-- insertion des immages en format JPG sur la page html-->
+            <img src="./assets/pierre.jpg" alt="Pimg"> <!-- assets = nom de dossier qui contient les photos-->
+            <img src="./assets/feuille.jpg" alt="Fimg"> 
+            <img src="./assets/ciseaux.jpg" alt="Cimg"> 
+        </div>
+
+
+        <div class="container_buttons"> <!-- 3 boutons définis-->
+            <button class="bouton" id="pierre">
+                Pierre
+            </button>
+            <button class="button" id="feuille">
+                Feuille
+            </button>
+            <button class="button" id="ciseaux">
+                Ciseaux    
+            </button>
+        </div>
+
+
+        <h2 id="affichage"></h2>
+    </div>
+<script src="index.js"></script> <!-- référence du fichier JavaScript-->
+</body>
+</html>

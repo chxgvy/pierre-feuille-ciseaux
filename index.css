@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Prompt:wght@100&display=swap');
+
+body {
+    background-color: rgb(179, 179, 179);
+}
+
+div {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+div {
+    text-align: center;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_images {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    width: 270px;
+	height: 270px;
+    border-radius: 30px;
+}
+
+.container_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    margin: 30px;
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    cursor: pointer;
+}
+
+.container_reset {
+    float: right;
+}
